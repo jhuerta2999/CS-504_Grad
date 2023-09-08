@@ -1,0 +1,7 @@
+I've chosen the client implementation method. There is no order that must be followed,
+so the states don't need to know which state we are in. The context is not responsible either,
+in order to do this I feel like the states would be able to jump from state to another, in other
+words behave in an erratic behavior. Because the states are not dependent on each other and
+the states dont jump from state to state we can simply create any order to get the answer we want.
+We want the winning warrior from the duel and we simply get the winner of each fight, not going back
+forth and not repeating/jumping states. The client should be responsible for knowing the state.
