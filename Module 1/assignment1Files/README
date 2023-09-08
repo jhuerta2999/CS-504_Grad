@@ -1,0 +1,31 @@
+src:
+	Stub classes and methods which conform to the assignment PFD.
+	These are the classes and methods you need to complete
+
+tests:
+	The test files that have existed on the 504 website
+
+kwic.txt:
+	The text file you should be reading unless you created your own (the intent).
+	You can use this file, or you can create one with similar format;
+	i.e. a few lines of text with a variable number of words on each line.
+
+projectlayout:
+	A screenshot showing what your eclipse project should look like.
+	It doesn't have to match exactly, but it should be very similar.
+
+addingjunit5_1:
+	Where to go in the menu to add junit5 (also called junit jupiter)
+addingjunit5_2:
+	Just create a temporary test file, in this case I called it "EXAMPLETest".
+	The purposes here isn't to use this test file, but to pull the junit5 libraries
+	into the class path which is required to use junit 5. If you have experience doing this already,
+	there are other ways to add these libraries, but this is the most straightforward.
+addingjunit5_3:
+	Delete "EXAMPLETest", you're not using it.
+	Now, the existing tests you downloaded from the 504 website should shot up without
+	any errors since you have now included junit5 into the classpath.
+	
+Assignment 1.pdf:
+	The existing assignment PDF
+
